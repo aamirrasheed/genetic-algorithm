@@ -1,8 +1,8 @@
-# Learning The Genetic Algorithm
+# The Genetic Algorithm
 
 ## So what exactly does this do?
 
-This my attempt to learn and implement a genetic algorithm.
+This my attempt to learn and implement a genetic algorithm. [I succeeded! Here's a video of it running](https://youtu.be/JW3IRKXpUCs)
 
 Specifically, this is a Python implementation of the genetic algorithm to find an arithmetic expression consisting of 9 or less operators (can be modified by changing `NUM_GENES` on line 4) that evaluates to a particular number. I've set it to 42, though that can be changed by changing the `TARGET` variable on line 10.
 
