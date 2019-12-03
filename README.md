@@ -9,7 +9,7 @@ Specifically, this is a Python implementation of the genetic algorithm to find a
 As the program runs, you'll see what generation the program is currently on, the average arithmetic result in the population (a measure of the overall fitness of the population), and the best current result (which tells you how close your program may be to converging, since you only need one solution).
 
 ## Inspiration
-I was inspired to learn about genetic algorithms by this [YouTube video](https://www.youtube.com/watch?v=qv6UVOQ0F44) that shows a proram learning to play a Mario level using the genetic algorithm. So freakin' cool!
+I was inspired to learn about genetic algorithms by this [YouTube video](https://www.youtube.com/watch?v=qv6UVOQ0F44) that shows a program learning to play a Mario level using the genetic algorithm. So freakin' cool!
 
 I used [this website](http://www.ai-junkie.com/ga/intro/gat1.html) to learn how the genetic algorithm works. This repo is an implementation of the exercise suggested by that tutorial.
 
