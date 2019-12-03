@@ -24,8 +24,9 @@ I used [this website](http://www.ai-junkie.com/ga/intro/gat1.html) to learn how 
 2. Adjust `TARGET` on line 10 as desired.
 3. Run `python genetic.py`
 
+## Thoughts
+Sometimes the expressions come out wonky. For example, I just ran it and got '6+++36' which doesn't look readable to humans, but because the algorithm judges a valid gene based on Python's inbuild `eval()` function, it does make sense. The first `+` is an addition, and the next two are indicating that 36 is a positive number.
 
-## Final Thoughts
 I've only tested this with the number 42. Setting `TARGET` to a decimal number or a prime number will make it harder for the genetic algorithm to converge since only integers are being used.
 
 It's pretty cool seeing the algorithm converge on an expression that works, even though this application in particular isn't that exciting. Now that I understand genetic algorithms better, I hope to apply it to other areas, such as my robotics research. Feel free to play with the parameters defined at the top of the file to see if you can get it to converge faster. 
